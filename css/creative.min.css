@@ -95,7 +95,6 @@ aside {
 .navbar-default .navbar-header .navbar-brand:focus,
 .navbar-default .navbar-header .navbar-brand:hover {
     color: #eb3812
-
 }
 .navbar-default .navbar-header .navbar-toggle {
     font-weight: 700;
@@ -153,6 +152,8 @@ aside {
         color: #006a71;
         font-size: 14px
     }
+
+
     .navbar-default.affix .navbar-header .navbar-brand:focus,
     .navbar-default.affix .navbar-header .navbar-brand:hover {
         color: #eb3812
@@ -444,4 +445,8 @@ img::-moz-selection {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     transform: translate(0, 0);
+}
+.kmlogo {
+  margin-top: -10px;
+  width: 60px;
 }
