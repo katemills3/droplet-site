@@ -36,7 +36,7 @@ h6 {
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif
 }
 hr {
-    border-color: #F05F40;
+    border-color: #efefef;
     border-width: 3px;
     max-width: 50px
 }
@@ -56,18 +56,30 @@ a:hover {
 p {
     font-size: 16px;
     line-height: 1.5;
-    margin-bottom: 20px
+    margin-bottom: 20px;
 }
 .bg-primary {
-    background-color: #F05F40
+    background-color: White
 }
 .bg-dark {
     background-color: #222;
     color: #fff
 }
 .text-faded {
-    color: rgba(255, 255, 255, .7)
+    color: rgba(255, 255, 255, .8);
+    margin-bottom: 10px;
 }
+
+.text-faded-black {
+    color: rgba(0,0,0, .8);
+    margin-bottom: 10px;
+}
+
+.text-faded-hero {
+    color: rgba(255, 255, 255, .8);
+      margin-bottom: 0px;
+}
+
 section {
     padding: 100px 0
 }
@@ -95,7 +107,6 @@ aside {
 .navbar-default .navbar-header .navbar-brand:focus,
 .navbar-default .navbar-header .navbar-brand:hover {
     color: #eb3812
-
 }
 .navbar-default .navbar-header .navbar-toggle {
     font-weight: 700;
@@ -153,6 +164,8 @@ aside {
         color: #006a71;
         font-size: 14px
     }
+
+
     .navbar-default.affix .navbar-header .navbar-brand:focus,
     .navbar-default.affix .navbar-header .navbar-brand:hover {
         color: #eb3812
@@ -175,7 +188,7 @@ header {
     background-size: cover;
     -o-background-size: cover;
     background-position: center;
-    background-image: url(../img/header.jpg);
+    background-image: url(../img/new_kirkland_dark.png);
     color: #fff
 }
 header .header-content {
@@ -193,9 +206,9 @@ header .header-content .header-content-inner hr {
 }
 header .header-content .header-content-inner p {
     font-weight: 300;
-    color: rgba(255, 255, 255, .7);
+    /*color: rgba(255, 255, 255, .7);*/
     font-size: 16px;
-    margin-bottom: 50px
+    /*margin-bottom: 50px*/
 }
 @media (min-width: 768px) {
     header {
@@ -249,7 +262,7 @@ header .header-content .header-content-inner p {
     color: #fff;
     opacity: 0;
     display: block;
-    background: rgba(240, 95, 64, .9);
+    background: rgba(0,106,113, .9);
     position: absolute;
     bottom: 0;
     text-align: center;
@@ -352,8 +365,8 @@ fieldset[disabled] .btn-default:hover {
 }
 .btn-primary {
     color: #fff;
-    background-color: #F05F40;
-    border-color: #F05F40;
+    background-color: #e86d1f;
+    border-color: #e86d1f;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s
@@ -365,8 +378,8 @@ fieldset[disabled] .btn-default:hover {
 .btn-primary:hover,
 .open>.dropdown-toggle.btn-primary {
     color: #fff;
-    background-color: #ee4b28;
-    border-color: #ed431f
+    background-color: #00393d;
+    border-color: #00393d
 }
 .btn-primary.disabled,
 .btn-primary.disabled.active,
@@ -424,8 +437,8 @@ img::-moz-selection {
 /*Kate's custom CSS*/
 
 .bottom-nav {
-  border-top: 1px solid Grey;
-  border-bottom: 1px solid Grey;
+  border-top: 1px solid #efefef;
+  border-bottom: 1px solid #efefef;
 }
 
 .nav-stretch {
@@ -444,4 +457,20 @@ img::-moz-selection {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     transform: translate(0, 0);
+}
+.kmlogo {
+  margin-top: -10px;
+}
+
+.navgrey {
+  background: rgba(0,106,113, .8);
+}
+
+.section-heading {
+  color: Black;
+}
+
+.btn-default {
+  background: #006a71;
+  color: White;
 }
