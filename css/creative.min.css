@@ -483,9 +483,18 @@ img::-moz-selection {
 
 .foot-menu > a {
   color: rgba(255, 255, 255, .7);
+  display: block;
 }
 
 .foot-menu > a:hover {
   color: #e86d1f;
   text-decoration: none;
+}
+
+.col-lg-2 {
+  width: 12%;
+}
+
+.scfd {
+  margin-left: 90%;
 }
