@@ -503,3 +503,17 @@ img::-moz-selection {
 .scfd {
   margin-left: 90%;
 }
+
+@media (max-width: 767px) {
+  .icon::before {
+      color: White;
+      display: inline;
+      margin-right: .5em;
+      font: normal normal normal 14px/1 FontAwesome;
+      font-size: 25px;
+      text-rendering: auto;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      transform: translate(0, 0);
+  }
+}
