@@ -491,6 +491,11 @@ img::-moz-selection {
   text-decoration: none;
 }
 
+.foot-menu > a:focus {
+  color: White;
+  text-decoration: none;
+}
+
 .col-lg-2 {
   width: 12%;
 }
