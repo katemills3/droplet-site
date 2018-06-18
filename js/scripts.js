@@ -1,4 +1,4 @@
-$(document).ready(function() { 
+$(document).ready(function() {
 
     "use strict";
 
@@ -214,7 +214,7 @@ $(document).ready(function() {
 
                 jQuery.ajax({
                     type: "POST",
-                    url: "mail/mail.php",
+                    url: "KATEMILLS3@gmail.com",
                     data: thisForm.serialize(),
                     success: function(response) {
                         // Swiftmailer always sends back a number representing numner of emails sent.
@@ -300,9 +300,9 @@ $(document).ready(function() {
         return error;
     }
 
-}); 
+});
 
-$(window).load(function() { 
+$(window).load(function() {
 
     // Append Instagram BGs
 
@@ -325,7 +325,7 @@ $(window).load(function() {
         }
     }, 500);
 
-}); 
+});
 
 function convertToSlug(text) {
     return text
